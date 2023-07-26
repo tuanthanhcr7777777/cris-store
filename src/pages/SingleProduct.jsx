@@ -43,9 +43,7 @@ const SingleProduct = () => {
             <p>{details} {details} {details} {details} {details} </p>
 
             <br />
-            <button className="btn btn-primary btn-sm" onClick={() => navigate(-1)}>BACK</button> &nbsp; 
             <button className="btn btn-primary btn-sm" onClick={() => navigate('/products')}>NAVIGATE TO PRODUCTS</button> &nbsp;
-            <Link to="/products" className="btn btn-primary btn-sm">PRODUCTS</Link>
           </div>
         </div>
       </div>
